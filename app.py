@@ -14,7 +14,7 @@ st.markdown("**AI-powered B2B messages for SaaS founders**")
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 PIPELINE_STAGES = ["🟡 Sent", "🔵 Replied", "🟢 Meeting", "✅ Closed", "❌ Not Interested"]
-SHEET_ID = "1JmjgJtAGKJiOvAZkYx1Rf4akTjzKBIAZ_St-75EQ-nM"
+SHEET_ID = "13-RUnaYI1r1TzVZ8NIFCrHH6eq7lDnNsPLkesM3B2jo"
 
 # ── GOOGLE SHEETS CONNECTION ─────────────────────────────────────────────────
 @st.cache_resource
