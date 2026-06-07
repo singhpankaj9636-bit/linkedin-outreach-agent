@@ -1,5 +1,2 @@
 streamlit
 groq
-gspread
-google-auth
-google-auth-oauthlib
