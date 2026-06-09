@@ -222,7 +222,7 @@ if st.session_state.last_output:
             st.session_state.crm_data.append(st.session_state.last_output)
             st.success("✅ Saved to Google Sheets!")
         except Exception as e:
-            st.error(f"Error: {e}")
+    st.exception(e)
 
 # CRM Section
 st.markdown("---")
