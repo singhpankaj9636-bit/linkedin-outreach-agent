@@ -44,7 +44,7 @@ offer = st.text_input("What You're Offering", placeholder="e.g. AI agent that au
 benefit = st.text_input("Key Benefit", placeholder="e.g. saves 5 hours/week, 3x more replies")
 
 st.subheader("Message Tone")
-tone = st.radio("", ["Professional", "Casual", "Friendly", "Direct", "Founder-style"], horizontal=True)
+tone = st.radio("Select Tone", ["Professional", "Casual", "Friendly", "Direct", "Founder-style"], horizontal=True, label_visibility="collapsed")
 
 st.subheader("Output Type")
 output_type = st.multiselect(
