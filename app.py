@@ -197,7 +197,7 @@ SPAM RISK: X/10
 TIP: one line improvement"""
 
             score_response = client.chat.completions.create(
-                model="llama-3.3-70b-versatile",
+                model="openai/gpt-oss-120b",
                 messages=[{"role": "user", "content": score_prompt}],
                 max_tokens=150
             )
